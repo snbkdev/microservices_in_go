@@ -2,3 +2,8 @@
 Автор: Trevor Sawler
 URK: https://coursehunter.net/course/rabota-s-mikroservisami-v-go-golang
 
+Пакеты для broker-service:
+go get github.com/go-chi/chi/v5
+go get github.com/go-chi/chi/v5/middleware
+go get github.com/go-chi/cors
+

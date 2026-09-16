@@ -3,6 +3,8 @@ module logger
 go 1.25.3
 
 require (
+	github.com/go-chi/chi/v5 v5.3.2 // indirect
+	github.com/go-chi/cors v1.2.2 // indirect
 	github.com/klauspost/compress v1.19.2 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.2.0 // indirect

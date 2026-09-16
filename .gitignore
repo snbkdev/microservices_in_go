@@ -66,3 +66,5 @@ env/
 # (обычно docker-compose.yml и Dockerfile коммитятся, так что тут пусто)
 
 info.txt
+
+**/db-data/

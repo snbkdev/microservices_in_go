@@ -86,6 +86,14 @@ services:
       - "1025:1025"
       - "8025:8025"
   
+  listener-service:
+    build:
+      context: ./../listener-service
+      dockerfile: ./../listener-service/listener-service.dockerfile
+    deploy:
+      mode: replicated
+      replicas: 1
+  
   rabbitmq:
     image: 'rabbitmq:3.9-alpine'
     ports:

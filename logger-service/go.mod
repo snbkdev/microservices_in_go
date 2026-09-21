@@ -5,7 +5,9 @@ go 1.25.3
 require (
 	github.com/go-chi/chi/v5 v5.3.2
 	github.com/go-chi/cors v1.2.2
-	go.mongodb.org/mongo-driver/v2 v2.9.1
+	go.mongodb.org/mongo-driver/v2 v2.6.0
+	google.golang.org/grpc v1.84.0
+	google.golang.org/protobuf v1.36.12
 )
 
 require (
@@ -20,6 +22,4 @@ require (
 	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/text v0.40.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260706201446-f0a921348800 // indirect
-	google.golang.org/grpc v1.84.0 // indirect
-	google.golang.org/protobuf v1.36.12 // indirect
 )
